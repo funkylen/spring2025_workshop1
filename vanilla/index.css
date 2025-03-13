@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15%;
+
+    background: lightgray;
+}
+
+.navbar__account {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar__askform>button {
+    all: unset;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+}
+
+.navbar__account>.image {
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid black;
+}
+
+.main-content {
+    display: flex;
+    padding: 5px 15%;
+    gap: 30px;
+}
+
+.questions {
+    width: 80%;
+}
+
+.questions__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.questions__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.card__sidebar {
+    width: 100px;
+}
+
+.card__sidebar .image img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.card__sidebar .likes input {
+    width: 75px;
+}
+
+.card__content .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 20%;
+}
